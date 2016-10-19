@@ -22,7 +22,7 @@ export default class AddTodo extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className="container__footer">
 				<form ref="form" onSubmit={this.handleSubmit}>
 					<input type="text" ref="todoText" placeholder="Enter what do you need to do" />
 					<button className="button expanded">Add Todo</button>

@@ -9,6 +9,8 @@ export default class TodoApp extends Component {
 	constructor(props){
 		super(props);
 		this.state = {
+			showCompleted: false,
+      		searchText: '',
 			todos: [
 				{
 					id: 1,
@@ -52,7 +54,3 @@ export default class TodoApp extends Component {
 	}
 }
 
-TodoApp.defaultProps = {
-	showCompleted: false,
-	searchText: ''	
-}

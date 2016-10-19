@@ -4,6 +4,7 @@ export default class TodoSearch extends Component {
 	
 	constructor(props){
 		super(props);
+		this.handleSearch = this.handleSearch.bind(this);
 	}
 
 	handleSearch(){
@@ -29,3 +30,4 @@ export default class TodoSearch extends Component {
 		);
 	}
 }
+
